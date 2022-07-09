@@ -1,0 +1,143 @@
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container-flex{
+    display: flex;
+    border-radius: 20px;
+    border: 8px solid yellow;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    padding: 15px;
+    background-color:purple;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.mae{
+    display: flex;
+    width: 100%;
+    height: 900px;
+    
+
+    justify-content: center;
+    align-items: center;
+}
+
+.foto_de_perfil{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-color: white;
+
+    margin-bottom: 30px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.moldura{
+    display: flex;
+    border-radius: 50%;
+    background-color: white;
+    width: 220px;
+    height: 220px;
+    margin-bottom: 30px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    margin-bottom: 30px;
+
+    align-items: center;
+}
+
+.h1{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    width: 500px;
+    height: 40px;
+
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.p{
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.border{
+    border: 2px solid;
+}
+
+.body{
+    display: flex;
+
+    width: 500px;
+    height: 80px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botao{
+    display: flex;
+    border-radius: 35px;
+    border: 2px solid white;
+    background-color: greenyellow;
+    color: white;
+    font-weight: bold;
+
+    font-size: 40px;
+    width: 50px;
+    height: 30px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cor{
+    background-color: rebeccapurple;
+}
+
+
+.variavel{
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
